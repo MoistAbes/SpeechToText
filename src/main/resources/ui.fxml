@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.speachtotext.ui.UIController">
+
+      <Label fx:id="label" layoutX="263.0" layoutY="220.0" text="not recording" />
+      <Label layoutX="285.0" layoutY="294.0" text="last message" />
+      <Label fx:id="testLabel" layoutX="286.0" layoutY="333.0" text="test message" />
+</Pane>

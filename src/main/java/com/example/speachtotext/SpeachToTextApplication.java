@@ -1,13 +1,15 @@
 package com.example.speachtotext;
 
-import org.springframework.boot.SpringApplication;
+import com.example.speachtotext.ui.ApplicationUI;
+import javafx.application.Application;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpeachToTextApplication {
 
+
     public static void main(String[] args) {
-        SpringApplication.run(SpeachToTextApplication.class, args);
+        Application.launch(ApplicationUI.class, args);
     }
 
 }
